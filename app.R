@@ -1,4 +1,4 @@
-source("grind.R")
+source("modified_grind.R")
 
 model <- function(t, state, parms) {
   with(as.list(c(state,parms)), {
